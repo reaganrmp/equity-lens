@@ -1,0 +1,17 @@
+[
+  {
+    "ticker": "AAPL",
+    "sector_peers": ["MSFT", "GOOGL"],
+    "narrative": "Services revenue mix shift and on-device AI features driving the next upgrade cycle."
+  },
+  {
+    "ticker": "NVDA",
+    "sector_peers": ["AMD", "AVGO"],
+    "narrative": "AI datacenter buildout continues; watch for signs of capex slowdown among hyperscaler customers."
+  },
+  {
+    "ticker": "JPM",
+    "sector_peers": ["BAC", "GS"],
+    "narrative": "Rate environment and credit quality trends across the loan book."
+  }
+]

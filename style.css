@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,400;0,500;0,600;1,400&family=JetBrains+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: #0b0d10;
+  --bg-elevated: #14171b;
+  --border: #23272e;
+  --text: #e8e8e6;
+  --text-dim: #8a8f98;
+  --text-faint: #565c66;
+  --accent: #c9a94f;
+  --good: #5fb88a;
+  --mid: #d9a441;
+  --bad: #d96c5f;
+  --serif: 'Newsreader', Georgia, serif;
+  --sans: 'Inter', -apple-system, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+.wrap {
+  max-width: 1040px;
+  margin: 0 auto;
+  padding: 56px 24px 96px;
+}
+
+header.masthead {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 28px;
+  margin-bottom: 40px;
+}
+
+header.masthead .eyebrow {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+header.masthead h1 {
+  font-family: var(--serif);
+  font-weight: 500;
+  font-size: 40px;
+  margin: 0 0 10px;
+  letter-spacing: -0.01em;
+}
+
+header.masthead p.subtitle {
+  color: var(--text-dim);
+  font-size: 15px;
+  margin: 0 0 16px;
+  max-width: 640px;
+}
+
+.meta-row {
+  display: flex;
+  gap: 20px;
+  font-family: var(--mono);
+  font-size: 12px;
+  color: var(--text-faint);
+}
+
+.framework-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.framework-strip .chip {
+  font-family: var(--mono);
+  font-size: 11px;
+  color: var(--text-dim);
+  border: 1px solid var(--border);
+  border-radius: 100px;
+  padding: 5px 12px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+}
+
+.card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  padding: 28px;
+}
+
+.card-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 18px;
+}
+
+.card-head .ticker-block h2 {
+  font-family: var(--serif);
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.card-head .ticker-block .name {
+  color: var(--text-dim);
+  font-size: 13px;
+  margin-top: 2px;
+}
+
+.card-head .price-block {
+  text-align: right;
+  font-family: var(--mono);
+}
+
+.card-head .price-block .price {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.card-head .price-block .sector {
+  font-size: 11px;
+  color: var(--text-faint);
+  margin-top: 2px;
+}
+
+.overall-score {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+  font-family: var(--mono);
+  font-size: 13px;
+  color: var(--text-dim);
+  margin-bottom: 20px;
+}
+
+.overall-score .num {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.overall-score .num.good { color: var(--good); }
+.overall-score .num.mid { color: var(--mid); }
+.overall-score .num.bad { color: var(--bad); }
+
+.narrative {
+  font-family: var(--serif);
+  font-style: italic;
+  color: var(--text-dim);
+  font-size: 14.5px;
+  border-left: 2px solid var(--accent);
+  padding-left: 14px;
+  margin-bottom: 22px;
+}
+
+.factors {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 14px;
+}
+
+.factor {
+  border-top: 1px solid var(--border);
+  padding-top: 10px;
+}
+
+.factor .label {
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-faint);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 6px;
+}
+
+.factor .dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.dot.good { background: var(--good); }
+.dot.mid { background: var(--mid); }
+.dot.bad { background: var(--bad); }
+.dot.na { background: var(--text-faint); }
+
+.factor .detail {
+  font-size: 13px;
+  color: var(--text);
+  line-height: 1.4;
+}
+
+footer {
+  margin-top: 56px;
+  padding-top: 24px;
+  border-top: 1px solid var(--border);
+  font-family: var(--mono);
+  font-size: 11.5px;
+  color: var(--text-faint);
+}
+
+.error-card {
+  border-color: var(--bad);
+  color: var(--bad);
+  font-family: var(--mono);
+  font-size: 13px;
+}
+
+@media (max-width: 560px) {
+  .wrap { padding: 32px 16px 64px; }
+  header.masthead h1 { font-size: 30px; }
+  .card { padding: 20px; }
+}

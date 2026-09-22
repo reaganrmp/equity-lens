@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Equities Lens</title>
+<meta name="description" content="A 6-factor equity screener adapted from a crypto altcoin screening framework." />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="masthead">
+      <div class="eyebrow">Equities Lens</div>
+      <h1>One framework, two markets.</h1>
+      <p class="subtitle">
+        A 6-factor screen — narrative fit, dilution, usage, volume legitimacy,
+        team &amp; backers, valuation vs peers — adapted from an altcoin
+        screening framework and applied to equities. Data refreshes weekly
+        via a scheduled job.
+      </p>
+      <div class="meta-row">
+        <span id="generated-at">Loading data…</span>
+        <span id="ticker-count"></span>
+      </div>
+    </header>
+
+    <div class="framework-strip" id="framework-strip"></div>
+
+    <main class="grid" id="grid">
+      <!-- cards injected here -->
+    </main>
+
+    <footer>
+      Data: Yahoo Finance via yfinance · Scores are 0 (weak) to 2 (strong) per
+      factor, averaged for an overall score · Narrative fit is filled in
+      manually, everything else is pulled automatically · Not investment
+      advice.
+    </footer>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

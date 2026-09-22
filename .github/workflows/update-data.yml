@@ -1,0 +1,34 @@
+name: Update screener data
+
+on:
+  schedule:
+    # Weekly, Monday 06:00 UTC — matches your weekly research-note cadence
+    - cron: "0 6 * * 1"
+  workflow_dispatch: {} # lets you trigger it manually from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install yfinance
+
+      - name: Run screener
+        run: python screener.py
+
+      - name: Commit updated results
+        run: |
+          git config user.name "equities-lens-bot"
+          git config user.email "actions@github.com"
+          git add data/results.json
+          git diff --staged --quiet || git commit -m "Update screener results [automated]"
+          git push
