@@ -1,53 +1,153 @@
 {
-  "generated_at": "2026-09-22T05:00:00+00:00",
-  "framework": ["narrative_fit", "dilution", "usage", "volume_legitimacy", "team_backers", "valuation"],
+  "generated_at": "2026-09-22T12:41:59.004827+00:00",
+  "framework": [
+    "narrative_fit",
+    "dilution",
+    "usage",
+    "volume_legitimacy",
+    "team_backers",
+    "valuation"
+  ],
   "results": [
     {
       "ticker": "AAPL",
       "name": "Apple Inc.",
       "sector": "Technology",
-      "price": 227.52,
-      "overall_score": 1.4,
+      "price": 338.98,
+      "overall_score": 1.6,
       "overall_max": 2,
       "factors": {
-        "narrative_fit": {"score": null, "detail": "Services revenue mix shift and on-device AI features driving the next upgrade cycle.", "raw": null, "manual": true},
-        "dilution": {"score": 2, "detail": "Buying back shares (shrinking float)", "raw": -3.1},
-        "usage": {"score": 1, "detail": "Modest/flat growth", "raw": {"revenue_growth": 0.05, "earnings_growth": 0.08}},
-        "volume_legitimacy": {"score": 2, "detail": "Normal short interest", "raw": 0.7},
-        "team_backers": {"score": 2, "detail": "Heavy institutional backing", "raw": 62.3},
-        "valuation": {"score": 0, "detail": "Expensive vs peers", "raw": {"pe": 34.2, "peer_median_pe": 27.1}}
+        "narrative_fit": {
+          "score": null,
+          "detail": "Services revenue mix shift and on-device AI features driving the next upgrade cycle.",
+          "raw": null,
+          "manual": true
+        },
+        "dilution": {
+          "score": 2,
+          "detail": "Buying back shares (shrinking float)",
+          "raw": -3.81
+        },
+        "usage": {
+          "score": 2,
+          "detail": "Strong growth",
+          "raw": {
+            "revenue_growth": 0.164,
+            "earnings_growth": 0.287
+          }
+        },
+        "volume_legitimacy": {
+          "score": 2,
+          "detail": "Normal short interest",
+          "raw": 0.96
+        },
+        "team_backers": {
+          "score": 2,
+          "detail": "Heavy institutional backing",
+          "raw": 66.34
+        },
+        "valuation": {
+          "score": 0,
+          "detail": "Expensive vs peers",
+          "raw": {
+            "pe": 38.918484,
+            "peer_median_pe": 22.87
+          }
+        }
       }
     },
     {
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
-      "price": 178.91,
-      "overall_score": 1.6,
+      "price": 227.38,
+      "overall_score": 2,
       "overall_max": 2,
       "factors": {
-        "narrative_fit": {"score": null, "detail": "AI datacenter buildout continues; watch for signs of capex slowdown among hyperscaler customers.", "raw": null, "manual": true},
-        "dilution": {"score": 1, "detail": "Roughly flat", "raw": 0.4},
-        "usage": {"score": 2, "detail": "Strong growth", "raw": {"revenue_growth": 0.62, "earnings_growth": 0.58}},
-        "volume_legitimacy": {"score": 1, "detail": "Elevated short interest — worth watching", "raw": 9.8},
-        "team_backers": {"score": 2, "detail": "Heavy institutional backing", "raw": 67.1},
-        "valuation": {"score": 2, "detail": "Cheap vs peers", "raw": {"pe": 41.0, "peer_median_pe": 52.3}}
+        "narrative_fit": {
+          "score": null,
+          "detail": "AI datacenter buildout continues; watch for signs of capex slowdown among hyperscaler customers.",
+          "raw": null,
+          "manual": true
+        },
+        "dilution": {
+          "score": 2,
+          "detail": "Buying back shares (shrinking float)",
+          "raw": -6.72
+        },
+        "usage": {
+          "score": 2,
+          "detail": "Strong growth",
+          "raw": {
+            "revenue_growth": 1.059,
+            "earnings_growth": 1.278
+          }
+        },
+        "volume_legitimacy": {
+          "score": 2,
+          "detail": "Normal short interest",
+          "raw": 1.29
+        },
+        "team_backers": {
+          "score": 2,
+          "detail": "Heavy institutional backing",
+          "raw": 71.41
+        },
+        "valuation": {
+          "score": 2,
+          "detail": "Cheap vs peers",
+          "raw": {
+            "pe": 28.745892,
+            "peer_median_pe": 101.67
+          }
+        }
       }
     },
     {
       "ticker": "JPM",
-      "name": "JPMorgan Chase & Co.",
+      "name": "JP Morgan Chase & Co.",
       "sector": "Financial Services",
-      "price": 289.14,
-      "overall_score": 1.2,
+      "price": 352.04,
+      "overall_score": 1.8,
       "overall_max": 2,
       "factors": {
-        "narrative_fit": {"score": null, "detail": "Rate environment and credit quality trends across the loan book.", "raw": null, "manual": true},
-        "dilution": {"score": 2, "detail": "Buying back shares (shrinking float)", "raw": -1.9},
-        "usage": {"score": 1, "detail": "Modest/flat growth", "raw": {"revenue_growth": 0.06, "earnings_growth": 0.04}},
-        "volume_legitimacy": {"score": 2, "detail": "Normal short interest", "raw": 1.1},
-        "team_backers": {"score": 1, "detail": "Some institutional backing", "raw": 48.6},
-        "valuation": {"score": 0, "detail": "Expensive vs peers", "raw": {"pe": 14.8, "peer_median_pe": 12.0}}
+        "narrative_fit": {
+          "score": null,
+          "detail": "Rate environment and credit quality trends across the loan book.",
+          "raw": null,
+          "manual": true
+        },
+        "dilution": {
+          "score": 2,
+          "detail": "Buying back shares (shrinking float)",
+          "raw": -4.93
+        },
+        "usage": {
+          "score": 2,
+          "detail": "Strong growth",
+          "raw": {
+            "revenue_growth": 0.304,
+            "earnings_growth": 0.469
+          }
+        },
+        "volume_legitimacy": {
+          "score": 2,
+          "detail": "Normal short interest",
+          "raw": 1.0
+        },
+        "team_backers": {
+          "score": 2,
+          "detail": "Heavy institutional backing",
+          "raw": 75.69
+        },
+        "valuation": {
+          "score": 1,
+          "detail": "In line with peers",
+          "raw": {
+            "pe": 15.083119,
+            "peer_median_pe": 14.1
+          }
+        }
       }
     }
   ]
