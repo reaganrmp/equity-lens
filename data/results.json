@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12T14:14:21.640040+00:00",
+  "generated_at": "2026-10-19T11:55:10.189057+00:00",
   "framework": [
     "narrative_fit",
     "dilution",
@@ -13,7 +13,7 @@
       "ticker": "AAPL",
       "name": "Apple Inc.",
       "sector": "Technology",
-      "price": 341.96,
+      "price": 343.46,
       "overall_score": 1.6,
       "overall_max": 2,
       "factors": {
@@ -26,7 +26,7 @@
         "dilution": {
           "score": 2,
           "detail": "Buying back shares (shrinking float)",
-          "raw": -2.85
+          "raw": -4.73
         },
         "usage": {
           "score": 2,
@@ -44,14 +44,14 @@
         "team_backers": {
           "score": 2,
           "detail": "Heavy institutional backing",
-          "raw": 66.32
+          "raw": 66.35
         },
         "valuation": {
           "score": 0,
           "detail": "Expensive vs peers",
           "raw": {
-            "pe": 39.215595,
-            "peer_median_pe": 23.83
+            "pe": 39.38761,
+            "peer_median_pe": 23.28
           }
         }
       }
@@ -60,8 +60,8 @@
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
-      "price": 225.11,
-      "overall_score": 1.8,
+      "price": 214.13,
+      "overall_score": 2,
       "overall_max": 2,
       "factors": {
         "narrative_fit": {
@@ -71,9 +71,9 @@
           "manual": true
         },
         "dilution": {
-          "score": 1,
-          "detail": "Roughly flat",
-          "raw": -1.23
+          "score": 2,
+          "detail": "Buying back shares (shrinking float)",
+          "raw": -5.5
         },
         "usage": {
           "score": 2,
@@ -97,8 +97,8 @@
           "score": 2,
           "detail": "Cheap vs peers",
           "raw": {
-            "pe": 28.458914,
-            "peer_median_pe": 98.39
+            "pe": 27.070797,
+            "peer_median_pe": 89.1
           }
         }
       }
@@ -107,8 +107,8 @@
       "ticker": "JPM",
       "name": "JP Morgan Chase & Co.",
       "sector": "Financial Services",
-      "price": 334.9107,
-      "overall_score": 1.8,
+      "price": 339.72,
+      "overall_score": 1.6,
       "overall_max": 2,
       "factors": {
         "narrative_fit": {
@@ -120,14 +120,14 @@
         "dilution": {
           "score": 2,
           "detail": "Buying back shares (shrinking float)",
-          "raw": -4.95
+          "raw": -5.67
         },
         "usage": {
-          "score": 2,
-          "detail": "Strong growth",
+          "score": 1,
+          "detail": "Modest/flat growth",
           "raw": {
-            "revenue_growth": 0.304,
-            "earnings_growth": 0.469
+            "revenue_growth": 0.102,
+            "earnings_growth": 0.099
           }
         },
         "volume_legitimacy": {
@@ -138,14 +138,14 @@
         "team_backers": {
           "score": 2,
           "detail": "Heavy institutional backing",
-          "raw": 75.66
+          "raw": 75.63
         },
         "valuation": {
           "score": 1,
           "detail": "In line with peers",
           "raw": {
-            "pe": 14.349216,
-            "peer_median_pe": 13.21
+            "pe": 14.25,
+            "peer_median_pe": 12.45
           }
         }
       }
