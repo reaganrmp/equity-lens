@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T11:55:10.189057+00:00",
+  "generated_at": "2026-10-26T12:08:22.963623+00:00",
   "framework": [
     "narrative_fit",
     "dilution",
@@ -13,7 +13,7 @@
       "ticker": "AAPL",
       "name": "Apple Inc.",
       "sector": "Technology",
-      "price": 343.46,
+      "price": 347.725,
       "overall_score": 1.6,
       "overall_max": 2,
       "factors": {
@@ -26,7 +26,7 @@
         "dilution": {
           "score": 2,
           "detail": "Buying back shares (shrinking float)",
-          "raw": -4.73
+          "raw": -2.85
         },
         "usage": {
           "score": 2,
@@ -50,8 +50,8 @@
           "score": 0,
           "detail": "Expensive vs peers",
           "raw": {
-            "pe": 39.38761,
-            "peer_median_pe": 23.28
+            "pe": 39.87672,
+            "peer_median_pe": 22.64
           }
         }
       }
@@ -60,8 +60,8 @@
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
-      "price": 214.13,
-      "overall_score": 2,
+      "price": 210.96,
+      "overall_score": 1.8,
       "overall_max": 2,
       "factors": {
         "narrative_fit": {
@@ -71,9 +71,9 @@
           "manual": true
         },
         "dilution": {
-          "score": 2,
-          "detail": "Buying back shares (shrinking float)",
-          "raw": -5.5
+          "score": 1,
+          "detail": "Roughly flat",
+          "raw": -1.13
         },
         "usage": {
           "score": 2,
@@ -97,8 +97,8 @@
           "score": 2,
           "detail": "Cheap vs peers",
           "raw": {
-            "pe": 27.070797,
-            "peer_median_pe": 89.1
+            "pe": 26.67004,
+            "peer_median_pe": 86.46
           }
         }
       }
@@ -107,7 +107,7 @@
       "ticker": "JPM",
       "name": "JP Morgan Chase & Co.",
       "sector": "Financial Services",
-      "price": 339.72,
+      "price": 331.58,
       "overall_score": 1.6,
       "overall_max": 2,
       "factors": {
@@ -120,7 +120,7 @@
         "dilution": {
           "score": 2,
           "detail": "Buying back shares (shrinking float)",
-          "raw": -5.67
+          "raw": -4.44
         },
         "usage": {
           "score": 1,
@@ -138,14 +138,14 @@
         "team_backers": {
           "score": 2,
           "detail": "Heavy institutional backing",
-          "raw": 75.63
+          "raw": 75.61
         },
         "valuation": {
           "score": 1,
           "detail": "In line with peers",
           "raw": {
-            "pe": 14.25,
-            "peer_median_pe": 12.45
+            "pe": 13.908556,
+            "peer_median_pe": 12.33
           }
         }
       }
