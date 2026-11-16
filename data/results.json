@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T14:58:25.217837+00:00",
+  "generated_at": "2026-11-16T14:34:33.567797+00:00",
   "framework": [
     "narrative_fit",
     "dilution",
@@ -13,7 +13,7 @@
       "ticker": "AAPL",
       "name": "Apple Inc.",
       "sector": "Technology",
-      "price": 348.1,
+      "price": 355.53,
       "overall_score": 1.4,
       "overall_max": 2,
       "factors": {
@@ -26,7 +26,7 @@
         "dilution": {
           "score": 2,
           "detail": "Buying back shares (shrinking float)",
-          "raw": -2.98
+          "raw": -2.93
         },
         "usage": {
           "score": 1,
@@ -39,19 +39,19 @@
         "volume_legitimacy": {
           "score": 2,
           "detail": "Normal short interest",
-          "raw": 0.91
+          "raw": 1.0
         },
         "team_backers": {
           "score": 2,
           "detail": "Heavy institutional backing",
-          "raw": 66.6
+          "raw": 66.49
         },
         "valuation": {
           "score": 0,
           "detail": "Expensive vs peers",
           "raw": {
-            "pe": 38.763924,
-            "peer_median_pe": 21.77
+            "pe": 39.591316,
+            "peer_median_pe": 21.28
           }
         }
       }
@@ -60,7 +60,7 @@
       "ticker": "NVDA",
       "name": "NVIDIA Corporation",
       "sector": "Technology",
-      "price": 178.06,
+      "price": 159.4599,
       "overall_score": 1.8,
       "overall_max": 2,
       "factors": {
@@ -73,7 +73,7 @@
         "dilution": {
           "score": 1,
           "detail": "Roughly flat",
-          "raw": -1.36
+          "raw": -0.99
         },
         "usage": {
           "score": 2,
@@ -86,19 +86,19 @@
         "volume_legitimacy": {
           "score": 2,
           "detail": "Normal short interest",
-          "raw": 1.3
+          "raw": 1.21
         },
         "team_backers": {
           "score": 2,
           "detail": "Heavy institutional backing",
-          "raw": 71.53
+          "raw": 71.17
         },
         "valuation": {
           "score": 2,
           "detail": "Cheap vs peers",
           "raw": {
-            "pe": 22.512503,
-            "peer_median_pe": 72.38
+            "pe": 20.159279,
+            "peer_median_pe": 75.67
           }
         }
       }
@@ -107,8 +107,8 @@
       "ticker": "JPM",
       "name": "JP Morgan Chase & Co.",
       "sector": "Financial Services",
-      "price": 337.72,
-      "overall_score": 1.6,
+      "price": 345.949,
+      "overall_score": 1.4,
       "overall_max": 2,
       "factors": {
         "narrative_fit": {
@@ -133,19 +133,19 @@
         "volume_legitimacy": {
           "score": 2,
           "detail": "Normal short interest",
-          "raw": 0.97
+          "raw": 0.9
         },
         "team_backers": {
           "score": 2,
           "detail": "Heavy institutional backing",
-          "raw": 75.59
+          "raw": 75.76
         },
         "valuation": {
-          "score": 1,
-          "detail": "In line with peers",
+          "score": 0,
+          "detail": "Expensive vs peers",
           "raw": {
-            "pe": 14.166107,
-            "peer_median_pe": 12.44
+            "pe": 14.511284,
+            "peer_median_pe": 12.54
           }
         }
       }
